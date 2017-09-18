@@ -33,6 +33,18 @@ Even though we now have two offices in Da Nang, we would still like to be able t
 
 4 - Setup startup scripts to run on startup of the machine:
 
+### How to customise the look? ###
+mgm Portal is a browser app and can be customised modifying the [style](https://bitbucket.org/mgmportal/mgm-portal/src/007fb67ef03d4589b914d3f953db351c3b464932/css/style.css?at=master), [JS](https://bitbucket.org/mgmportal/mgm-portal/src/007fb67ef03d4589b914d3f953db351c3b464932/js/main.js?at=master) and [HTML](https://bitbucket.org/mgmportal/mgm-portal/src/007fb67ef03d4589b914d3f953db351c3b464932/index.html?at=master&fileviewer=file-view-default)
+files.
+
+### Links to learn more about webrtc ###
+* [Real-time communication with WebRTC: Google I/O 2013](https://www.youtube.com/watch?v=p2HzZkd2A40)
+* [WebRTC in the real world: STUN, TURN and signaling](https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/)
+
+### Practical things we have learnt ###
+* The portal should be located such that nobody is continuously being watched
+*
+
 
 ### Who do I talk to? ###
 Marcello Schreiber (mgm Da Nang intern 28.08.2017 - 22.09.2017)
