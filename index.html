@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://simplewebrtc.com/latest-v2.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+
+      <audio id="openAudio">
+        <source src="./audios/portalOpen.ogg" type="audio/ogg">
+      </audio>
+
+      <audio id="closeAudio">
+        <source src="/audios/portalClose.wav" type="audio/wav">
+      </audio>
+
+
+
+      <div id="videos">
+        <div id="audioDiv">
+          <img src="./images/muted-blue.png" id="mutedIcon">
+        </div>
+
+        <video id="localVideo"></video>
+        <div id="remotes" >
+          <img src="./images/logo.png" id="logo">
+        </div>
+        <div id="enter">
+          <p style="text-align: center;" id="enterP">Press [ENTER]<p>
+        </div>
+
+      </div>
+    </body>
+</html>
