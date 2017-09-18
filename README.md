@@ -1,7 +1,8 @@
+![logo](images/logo.png)
 # README #
 
 ### Description ###
-The **mgm Portal** is an office-to-office video gate that connectes two browser peers using webrtc technology. 
+The **mgm Portal** is an office-to-office video gate that connectes two browser peers using webrtc technology.
 
 ### Motivation ###
 Even though we now have two offices in Da Nang, we would still like to be able to have an informal communication channel between both locations.
@@ -14,12 +15,12 @@ Even though we now have two offices in Da Nang, we would still like to be able t
 * Python and JS for scripts and simple servers
 * SimpleWebrtc [more info](https://simplewebrtc.com/)
 * Signalmaster signaling server [more info](https://github.com/andyet/signalmaster)
-* 
- 
- 
+*
+
+
 ### Hardware used ##
 * 2x Intel Nuc
-* Logitech webcam 
+* Logitech webcam
 * 2x 50" TV
 
 ### How do I get set up? ###
@@ -28,9 +29,9 @@ Even though we now have two offices in Da Nang, we would still like to be able t
 
 2 - Install chromedriver [check version]
 
-3 - Install python dependencies 
+3 - Install python dependencies
 
-4 - Setup startup scripts to run on startup of the machine 
+4 - Setup startup scripts to run on startup of the machine
 
 
 ### Who do I talk to? ###
