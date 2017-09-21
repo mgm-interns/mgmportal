@@ -22,6 +22,7 @@ Even though we now have two offices in Da Nang, we would still like to be able t
 * 2x Intel Nuc
 * 2x Logitech webcam
 * 2x 50" TV
+* 2x Rode Videomicro microphone
 
 ### How do I get set up? ###
 1 - Generate ssl Certificates
@@ -49,8 +50,16 @@ files.
 
 ### Practical things we have learnt ###
 * The portal should be located such that nobody is continuously being watched
-*
+* People do not automatically stay in the right position, so it's a good idea to mark where one should stand.
 
+### The Frame ###
+![Frame 1](docu/images/frame1.jpg)
+
+This where the dimensions used to obtain the first frame
+![Frame dimensions](docu/images/frame-dimensions.png)
+
+This are the recomendations for the second frame. (based on previous experience)
+-image should be placed here-
 
 ### Who do I talk to? ###
-Marcello Schreiber (mgm Da Nang intern 28.08.2017 - 22.09.2017)
+Marcello Schreiber (marcello.schreiber@hotmail.com | mgm Da Nang intern 28.08.2017 - 22.09.2017)
