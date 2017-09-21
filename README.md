@@ -36,13 +36,22 @@ Even though we now have two offices in Da Nang, we would still like to be able t
 4 - Node.js and modules should be installed
 
 5 - Setup startup scripts to run on startup of the machine  
-    * Office 1: should run [startupPortal.py](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.py?at=master) and [startupServers.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupServers.bat?at=master)
-    * Office 2: should only run [startupPortal.py](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.py?at=master)
+* Office 1: should run [startupPortal.py](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.py?at=master) and [startupServers.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupServers.bat?at=master)
+* Office 2: should only run [startupPortal.py](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.py?at=master)
 
 
 ### How to customise the look? ###
 mgm Portal is a browser app and can be customised modifying the [style](https://bitbucket.org/mgmportal/mgm-portal/src/007fb67ef03d4589b914d3f953db351c3b464932/css/style.css?at=master), [JS](https://bitbucket.org/mgmportal/mgm-portal/src/007fb67ef03d4589b914d3f953db351c3b464932/js/main.js?at=master) and [HTML](https://bitbucket.org/mgmportal/mgm-portal/src/007fb67ef03d4589b914d3f953db351c3b464932/index.html?at=master&fileviewer=file-view-default)
 files.
+
+### The Frame ###
+![Frame 1](docu/images/frame1.jpg)
+
+These where the dimensions used to obtain the first frame
+![Frame dimensions](docu/images/frame-dimensions.png)
+
+These are the recommendations for the second frame. (based on previous experience)
+-image should be placed here-
 
 ### Links to learn more about WebRTC ###
 * [Real-time communication with WebRTC: Google I/O 2013](https://www.youtube.com/watch?v=p2HzZkd2A40)
@@ -51,15 +60,6 @@ files.
 ### Practical things we have learnt ###
 * The portal should be located such that nobody is continuously being watched
 * People do not automatically stay in the right position, so it's a good idea to mark where one should stand.
-
-### The Frame ###
-![Frame 1](docu/images/frame1.jpg)
-
-This where the dimensions used to obtain the first frame
-![Frame dimensions](docu/images/frame-dimensions.png)
-
-This are the recomendations for the second frame. (based on previous experience)
--image should be placed here-
 
 ### Who do I talk to? ###
 Marcello Schreiber (marcello.schreiber@hotmail.com | mgm Da Nang intern 28.08.2017 - 22.09.2017)
