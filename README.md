@@ -36,8 +36,8 @@ Even though we now have two offices in Da Nang, we would still like to be able t
 4 - Node.js and modules should be installed
 
 5 - Setup startup scripts to run on startup of the machine  
-* Office 1: should run [startupPortal.py](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.py?at=master) and [startupServers.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupServers.bat?at=master)
-* Office 2: should only run [startupPortal.py](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.py?at=master)
+    Office 1: should run [startupPortal.py](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.py?at=master) and [startupServers.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupServers.bat?at=master)
+    Office 2: should only run [startupPortal.py](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.py?at=master)
 
 
 ### How to customise the look? ###
