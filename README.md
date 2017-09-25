@@ -3,6 +3,7 @@
 
 ### Description ###
 The **mgm Portal** is an office-to-office video gate that connectes two browser peers using webrtc technology.
+
 ![portal](docu/images/portal.jpg)
 
 ### Motivation ###
@@ -72,7 +73,7 @@ Each portal has a static IP Address assigned to it
 These where the dimensions used to obtain the first frame
 ![Frame dimensions](docu/images/frame-dimensions.png)
 
-These are the recommendations for the second frame (based on previous experience). Camera and microphone should be hidden inside the frame. 
+These are the recommendations for the second frame (based on previous experience). Camera and microphone should be hidden inside the frame.
 ![Frame dimensions 2](docu/images/frame-dimensions2.png)
 
 ### Practical things we have learnt ###
