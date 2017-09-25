@@ -6,6 +6,20 @@ var webrtc = new SimpleWebRTC({
   // immediately ask for camera access
   autoRequestMedia: true,
 
+
+  // =================== REMOVE THIS IF YOU WANT TO USE THE DEFAULT SANDBOX SIGNALING SERVER ===================
+  // signaling server
+  socketio: {
+    path: "/socket.io",
+    host: "172.31.240.19",
+    port:"8888",
+    hosetname: "signal-master",
+    url: "https://172.31.240.19:8888"
+  },
+  url: "https://172.31.240.19:8888"
+
+  // ==========================================================================================================
+
 });
 var stateOpen = false;
 
