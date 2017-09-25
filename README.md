@@ -18,7 +18,7 @@ The user can press the enter button to mute/unmute the portal on both sides. If 
 * Python and JS for scripts and simple servers
 * SimpleWebrtc | [more info](https://simplewebrtc.com/)
 * Signalmaster signaling server | [more info](https://github.com/andyet/signalmaster)
-*
+
 
 ### Hardware used ##
 * 2x Intel Nuc
@@ -40,17 +40,11 @@ Requirements: NodeJS, Python
 4 - Setup startup scripts to run on startup of the machine
     On Windows: press windows key + r and enter "shell:startup". Place the respective startup scripts in that folder:
 
-* Office 1: should run [startupPortal.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.bat),  
-
-[startupSignalingServer.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupSignalingServer.bat)
-
-and
-
-[startupStaticHttServer.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupStaticHttServer.bat)
+* Office 1: should run [startupPortal.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.bat), [startupSignalingServer.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupSignalingServer.bat) and [startupStaticHttServer.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupStaticHttServer.bat)
 
 * Office 2: should only run [startupPortal.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPorta.bat)
 
-After everything is setup the portal should be working automatically after the setup of the machine.
+After everything is setup the portal should be working automatically after the startup of the machiness.
 
 ### Configuration ###
 It might be needed to configure:
@@ -67,6 +61,7 @@ files.
 
 ### Static IP Addresses ###
 Each portal has a static IP Address assigned to it
+
 * Office Pasteur: 172.31.249.19
 * Office mgm2: 172.31.249.18
 
