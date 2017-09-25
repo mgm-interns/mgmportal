@@ -42,9 +42,9 @@ Requirements: NodeJS, Python
 4 - Setup startup scripts to run on startup of the machine
     On Windows: press "windows key + r" and enter "shell:startup". Place the respective startup scripts in that folder:
 
-* Office 1: should run [startupPortal.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPortal.bat), [startupSignalingServer.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupSignalingServer.bat) and [startupStaticHttServer.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupStaticHttServer.bat)
+* Office 1: should run [startupPortal.bat](https://bitbucket.org/mgmportal/mgm-portal/src/f11adc529ed5587c883fef9fdd83018c8a69c695/startupScripts/startupPortal.bat?at=master), [startupSignalingServer.bat](https://bitbucket.org/mgmportal/mgm-portal/src/f11adc529ed5587c883fef9fdd83018c8a69c695/startupScripts/startupSignalingServer.bat?at=master) and [startupStaticHttServer.bat](https://bitbucket.org/mgmportal/mgm-portal/src/f11adc529ed5587c883fef9fdd83018c8a69c695/startupScripts/startupStaticHttServer.bat?at=master)
 
-* Office 2: should only run [startupPortal.bat](https://bitbucket.org/mgmportal/mgm-portal/src/16a4c9304311d2815b4b9b2e331c235f9001f0fe/startupScripts/startupPorta.bat)
+* Office 2: should only run [startupPortal.bat](https://bitbucket.org/mgmportal/mgm-portal/src/f11adc529ed5587c883fef9fdd83018c8a69c695/startupScripts/startupPortal.bat?at=master)
 
 After everything is setup the portal should be working automatically after the startup of the machiness.
 
