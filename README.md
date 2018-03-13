@@ -8,6 +8,7 @@ The **mgm Portal** is an office-to-office video gate that connectes two browser 
 
 ### Motivation ###
 Even though we now have two offices in Da Nang, we would still like to be able to have an informal communication channel between both locations.
+Basically we were inspired by the [office-to-office portal of Atlassian](https://www.atlassian.com/blog/archives/developer-lives-saved-with-portal-device).
 
 ### User Interaction ###
 The user can press the enter button to mute/unmute the portal on both sides. If one side is muted/unmuted, the other side will also mute/unmute. In the future the enter button should be substituted by a single big button.
